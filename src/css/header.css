@@ -1,0 +1,91 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif; }
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 3rem; }
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 2.25rem; }
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 2.15rem; }
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem; }
+
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem; }
+
+p {
+  font-weight: 100;
+  font-size: 0.75rem; }
+
+body {
+  background-color: #376e6f;
+  margin: 0px; }
+
+.mobile {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  background-color: #2f4454;
+  z-index: 3;
+  width: 100%;
+  top: 0;
+  height: 80px; }
+
+.logo {
+  position: relative;
+  margin: 15px; }
+
+.navHeading {
+  color: #da7b93;
+  margin: auto 10px auto 10px; }
+
+.search {
+  width: 30%;
+  position: relative;
+  display: flex;
+  margin: auto 0 auto 15px; }
+
+.searchTerm {
+  width: 100%;
+  border: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 10px 0 0 10px;
+  outline: none;
+  background: #376e6f; }
+  .searchTerm ::placeholder {
+    color: #ffffff; }
+
+.searchTerm:focus {
+  color: #ffffff; }
+
+.searchButton {
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  background: #376e6f;
+  color: #da7b93;
+  text-align: center;
+  cursor: pointer; }
+
+/*# sourceMappingURL=header.css.map */

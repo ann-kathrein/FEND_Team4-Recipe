@@ -1,3 +1,76 @@
-body {
-  background-color: blush($color: #ffb6b6);
+@import 'main.scss';
+
+.dailyRecipes {
+  margin-top: 90px;
+  align-items: center;
+}
+
+.dailyRecipesImg {
+  margin: auto;
+  max-width: 80vw;
+  max-height: 60vw;
+  border-radius: 10%;
+}
+
+.slides {
+  display: none;
+  width: 100%;
+}
+
+.animate-left {
+  position: relative;
+  animation: animateleft 0.8s;
+}
+
+@keyframes animateleft {
+  from {
+    left: -500px;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+.collectionRecipes {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.recipe {
+  max-width: 50%;
+  opacity: 0.5;
+  border-radius: 10%;
+  box-shadow: 3px solid $color-black;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.recipeName {
+  color: $color-white;
+}
+
+.backRecipeName {
+  padding-left: 5px;
+  position: relative;
+  bottom: 60px;
+  left: 5px;
+  max-width: 50px;
+  background: $color-green;
+  text-shadow: 1px 2px 2px $color-dark;
+  border-radius: 10%;
+}
+
+.displaynone {
+  display: none;
+}
+
+.display {
+  position: relative;
+  left: 140px;
 }

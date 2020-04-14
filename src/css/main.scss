@@ -1,0 +1,64 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+$color-blush: #da7b93;
+$color-dark: #2f4454;
+$color-black: #2e151b;
+$color-green: #376e6f;
+$color-darkgreen: #1c3334;
+$color-white: #ffffff;
+
+$font-headline: 'Open Sans', sans-serif;
+$font-text: 'Roboto', sans-serif;
+
+$breakpoint-tablet: 576px;
+$breakpoint-tablet: 768px;
+$breakpoint-tablet: 992px;
+
+html {
+  box-sizing: border-box;
+  font-family: $font-text;
+}
+
+h1 {
+  font-family: $font-headline;
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: $font-headline;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 2.15rem;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem;
+}
+
+p {
+  font-weight: 100;
+  font-size: 0.75rem;
+}
+
+body {
+  background-color: $color-green;
+  margin: 0px;
+}

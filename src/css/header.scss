@@ -1,0 +1,57 @@
+@import 'main.scss';
+
+.mobile {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  background-color: $color-dark;
+  z-index: 3;
+  width: 100%;
+  top: 0;
+  height: 80px;
+}
+
+.logo {
+  position: relative;
+  margin: 15px;
+}
+
+.navHeading {
+  color: $color-blush;
+  margin: auto 10px auto 10px;
+}
+
+.search {
+  width: 30%;
+  position: relative;
+  display: flex;
+  margin: auto 0 auto 15px;
+}
+
+.searchTerm {
+  width: 100%;
+  border: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 10px 0 0 10px;
+  outline: none;
+  background: $color-green;
+  ::placeholder {
+    color: $color-white;
+  }
+}
+
+.searchTerm:focus {
+  color: $color-white;
+}
+
+.searchButton {
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  background: $color-green;
+  color: $color-blush;
+  text-align: center;
+  cursor: pointer;
+}
