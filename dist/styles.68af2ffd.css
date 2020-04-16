@@ -39,7 +39,7 @@ p {
   font-size: 0.75rem; }
 
 body {
-  background-color: #376e6f;
+  background-color: #ffecc7;
   margin: 0px; }
 
 /* START Daily Recipe */
@@ -48,7 +48,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 70vw;
+  height: 60vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -100,7 +100,73 @@ body {
   position: relative;
   left: 140px; }
 
+.points {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 20px;
+  width: 100px;
+  margin: auto; }
+
+.pointActive {
+  width: 8px;
+  height: 8px;
+  background-color: #2f4454;
+  border-radius: 50%; }
+
+.pointInActive {
+  width: 8px;
+  height: 8px;
+  border: 1px solid #2f4454;
+  border-radius: 50%; }
+
 /* END Daily Recipe */
+/* START Categorys */
+.categorys {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .categorys :hover {
+    background-color: #2f4454;
+    color: #fdd998; }
+
+.category {
+  border-radius: 50%;
+  max-width: 40%;
+  min-width: 20%;
+  background-color: #85a392;
+  color: #2f4454;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 4px 4px 4px #2f4454;
+          box-shadow: 4px 4px 4px #2f4454; }
+
+/*catgory class on hover display name*/
+/* END Categorys */
 .collectionRecipes {
   margin: 20px;
   display: -webkit-box;
@@ -127,13 +193,13 @@ body {
   max-width: 80%;
   opacity: 0.5;
   border-radius: 10%;
-  -webkit-box-shadow: 3px solid #2e151b;
-          box-shadow: 3px solid #2e151b; }
+  -webkit-box-shadow: 3px 3px 3px #2f4454;
+          box-shadow: 3px 3px 3px #2f4454; }
   .recipe:hover {
     opacity: 1; }
 
 .recipeName {
-  color: #ffffff;
+  color: #2f4454;
   margin: 5px 0 0 0; }
 
 .backRecipeName {
@@ -148,48 +214,12 @@ body {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   padding-left: 5px;
-  background: #376e6f;
   text-shadow: 1px 2px 2px #2f4454;
   border-radius: 10%;
   margin-bottom: 10px; }
 
 .displaynoneFavourite2 {
   display: none; }
-
-.categorys {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-
-.category {
-  border-radius: 70%;
-  max-width: 40%;
-  min-width: 20%;
-  background-color: #2f4454;
-  color: #ffffff;
-  padding: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-  .category :hover {
-    color: #da7b93; }
-
-/*catgory class on hover display name*/
 
 
 

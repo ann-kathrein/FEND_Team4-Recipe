@@ -37,7 +37,7 @@ p {
   font-size: 0.75rem; }
 
 body {
-  background-color: #376e6f;
+  background-color: #ffecc7;
   margin: 0px; }
 
 .mobile {
@@ -55,7 +55,7 @@ body {
   margin: 15px; }
 
 .navHeading {
-  color: #da7b93;
+  color: #f5b971;
   margin: auto 10px auto 10px; }
 
 .search {
@@ -71,20 +71,20 @@ body {
   height: 20px;
   border-radius: 10px 0 0 10px;
   outline: none;
-  background: #376e6f; }
+  background: #85a392; }
   .searchTerm ::placeholder {
-    color: #ffffff; }
+    color: #2f4454; }
 
 .searchTerm:focus {
-  color: #ffffff; }
+  color: #2f4454; }
 
 .searchButton {
   width: 20px;
   height: 20px;
   border: none;
   border-radius: 0 10px 10px 0;
-  background: #376e6f;
-  color: #da7b93;
+  background: #85a392;
+  color: #f5b971;
   text-align: center;
   cursor: pointer; }
 
