@@ -4,11 +4,11 @@
   box-sizing: inherit;
 }
 
-$color-blush: #da7b93;
 $color-dark: #2f4454;
-$color-black: #2e151b;
-$color-green: #376e6f;
-$color-darkgreen: #1c3334;
+$color-green: #85a392;
+$color-medium: #f5b971;
+$color-light: #fdd998;
+$color-lighter: #ffecc7;
 $color-white: #ffffff;
 
 $font-headline: 'Open Sans', sans-serif;
@@ -59,6 +59,6 @@ p {
 }
 
 body {
-  background-color: $color-green;
+  background-color: $color-lighter;
   margin: 0px;
 }

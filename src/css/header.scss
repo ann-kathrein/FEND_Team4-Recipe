@@ -17,7 +17,7 @@
 }
 
 .navHeading {
-  color: $color-blush;
+  color: $color-medium;
   margin: auto 10px auto 10px;
 }
 
@@ -37,12 +37,12 @@
   outline: none;
   background: $color-green;
   ::placeholder {
-    color: $color-white;
+    color: $color-dark;
   }
 }
 
 .searchTerm:focus {
-  color: $color-white;
+  color: $color-dark;
 }
 
 .searchButton {
@@ -51,7 +51,7 @@
   border: none;
   border-radius: 0 10px 10px 0;
   background: $color-green;
-  color: $color-blush;
+  color: $color-medium;
   text-align: center;
   cursor: pointer;
 }
