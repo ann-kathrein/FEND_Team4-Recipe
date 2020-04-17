@@ -1,1 +1,19 @@
-@import 'main.scss';
+.clear {
+  clear: both;
+  height: 60px;
+}
+
+.footerMobile {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  justify-content: space-evenly;
+  background-color: $color-dark;
+  width: 100%;
+  bottom: 0;
+  height: 60px;
+}
+
+.imgFooter {
+  margin: 10px;
+}
