@@ -19,10 +19,10 @@
       rel="stylesheet"
       type="text/css"
     />
-    <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/main.scss" />
+    <!--<link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/styles.css" />
-    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/footer.css" />-->
   </head>
 
   <header>
@@ -119,7 +119,7 @@
       />
     </svg>
 
-    <div class="categorys">
+    <div class="categorys" id="categorys">
       <svg
         width="24"
         height="24"
@@ -134,19 +134,24 @@
           fill="#2F4454"
         />
       </svg>
-
-      <div class="category" id="breakfast">
-        <p>#breakfast</p>
-      </div>
-      <div class="category" id="dinner">
-        <p>#dinner</p>
-      </div>
-      <div class="category" id="dessert">
-        <p>#dessert</p>
-      </div>
-      <div class="category" id="cake">
-        <p>#cake</p>
-      </div>
+      <button class="category all" onclick="categorySelection('all')">
+        all
+      </button>
+      <button
+        class="category breakfast"
+        onclick="categorySelection('breakfast')"
+      >
+        #breakfast
+      </button>
+      <button class="category dinner" onclick="categorySelection('dinner')">
+        #dinner
+      </button>
+      <button class="category dessert" onclick="categorySelection('desser')">
+        #dessert
+      </button>
+      <button class="category cake" onclick="categorySelection('cake')">
+        #cake
+      </button>
 
       <svg
         width="24"
@@ -165,7 +170,7 @@
     </div>
 
     <div class="collectionRecipes">
-      <div class="containerRecipe" id="">
+      <div class="containerRecipe dinner">
         <a href="Edit/index.html">
           <img class="recipe" src="../images/Recipe_1.jpg" alt="Recipe 1" />
         </a>
@@ -204,9 +209,13 @@
           </svg>
         </div>
       </div>
-      <div class="containerRecipe">
+      <div class="containerRecipe cake">
         <a href="Edit/index.html">
-          <img class="recipe" src="../images/Recipe_2.jpg" alt="Recipe 2" />
+          <img
+            class="recipe cake"
+            src="../images/Recipe_2.jpg"
+            alt="Recipe 2"
+          />
         </a>
         <div class="backRecipeName">
           <h5 class="recipeName">Muffins</h5>
@@ -243,12 +252,12 @@
         </div>
       </div>
 
-      <div class="containerRecipe">
+      <div class="containerRecipe breakfast">
         <a href="Edit/index.html">
           <img class="recipe" src="../images/Recipe_3.jpg" alt="Recipe 3" />
         </a>
         <div class="backRecipeName">
-          <h5 class="recipeName">Pancakes</h5>
+          <h5 class="recipeName breakfast">Pancakes</h5>
           <svg
             class="unliked displaynoneFavourite2"
             width="23"
@@ -282,12 +291,12 @@
         </div>
       </div>
 
-      <div class="containerRecipe">
+      <div class="containerRecipe dinner">
         <a href="Edit/index.html">
           <img class="recipe" src="../images/Recipe_4.jpg" alt="Recipe 4" />
         </a>
         <div class="backRecipeName">
-          <h5 class="recipeName">Name Recipe</h5>
+          <h5 class="recipeName dinner">Vegetable Casserole</h5>
           <svg
             class="unliked displayFavourite2"
             width="23"
@@ -320,12 +329,12 @@
           </svg>
         </div>
       </div>
-      <div class="containerRecipe">
+      <div class="containerRecipe dinner">
         <a href="Edit/index.html">
           <img class="recipe" src="../images/Recipe_5.jpg" alt="Recipe 4" />
         </a>
         <div class="backRecipeName">
-          <h5 class="recipeName">Name Recipe</h5>
+          <h5 class="recipeName dinner">Thai Curry</h5>
           <svg
             class="unliked displayFavourite2"
             width="23"
@@ -358,12 +367,12 @@
           </svg>
         </div>
       </div>
-      <div class="containerRecipe">
+      <div class="containerRecipe dinner">
         <a href="Edit/index.html">
           <img class="recipe" src="../images/Recipe_6.jpg" alt="Recipe 4" />
         </a>
         <div class="backRecipeName">
-          <h5 class="recipeName">Name Recipe</h5>
+          <h5 class="recipeName dinner">Pumpkin Soup</h5>
           <svg
             class="unliked displayFavourite2"
             width="23"
@@ -401,6 +410,7 @@
     <script src="../js/index.js"></script>
   </body>
 
+  <div class="clear"></div>
   <footer class="footerMobile">
     <svg
       class="imgFooter"

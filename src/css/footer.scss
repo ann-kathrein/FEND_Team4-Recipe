@@ -1,4 +1,7 @@
-@import 'main.scss';
+.clear {
+  clear: both;
+  height: 60px;
+}
 
 .footerMobile {
   display: flex;
