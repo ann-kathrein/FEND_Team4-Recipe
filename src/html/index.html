@@ -20,9 +20,6 @@
       type="text/css"
     />
     <link rel="stylesheet" href="../css/main.scss" />
-    <!--<link rel="stylesheet" href="../css/header.css" />
-    <link rel="stylesheet" href="../css/styles.css" />
-    <link rel="stylesheet" href="../css/footer.css" />-->
   </head>
 
   <header>
@@ -134,22 +131,19 @@
           fill="#2F4454"
         />
       </svg>
-      <button class="category all" onclick="categorySelection('all')">
+      <button class="category" data-category="all">
         all
       </button>
-      <button
-        class="category breakfast"
-        onclick="categorySelection('breakfast')"
-      >
+      <button class="category" data-category="breakfast">
         #breakfast
       </button>
-      <button class="category dinner" onclick="categorySelection('dinner')">
+      <button class="category" data-category="dinner">
         #dinner
       </button>
-      <button class="category dessert" onclick="categorySelection('desser')">
+      <button class="category" data-category="dessert">
         #dessert
       </button>
-      <button class="category cake" onclick="categorySelection('cake')">
+      <button class="category" data-category="cake">
         #cake
       </button>
 
@@ -209,7 +203,7 @@
           </svg>
         </div>
       </div>
-      <div class="containerRecipe cake">
+      <div class="containerRecipe show cake">
         <a href="Edit/index.html">
           <img
             class="recipe cake"
@@ -427,21 +421,24 @@
         fill="#F5B971"
       />
     </svg>
-    <svg
-      class="imgFooter"
-      width="45"
-      height="46"
-      viewBox="0 0 45 46"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
-        d="M22.5 3.83334C12.15 3.83334 3.75 12.42 3.75 23C3.75 33.58 12.15 42.1667 22.5 42.1667C32.85 42.1667 41.25 33.58 41.25 23C41.25 12.42 32.85 3.83334 22.5 3.83334ZM22.5 13.4167C21.4688 13.4167 20.625 14.2792 20.625 15.3333V21.0833H15C13.9688 21.0833 13.125 21.9458 13.125 23C13.125 24.0542 13.9688 24.9167 15 24.9167H20.625V30.6667C20.625 31.7208 21.4688 32.5833 22.5 32.5833C23.5312 32.5833 24.375 31.7208 24.375 30.6667V24.9167H30C31.0312 24.9167 31.875 24.0542 31.875 23C31.875 21.9458 31.0312 21.0833 30 21.0833H24.375V15.3333C24.375 14.2792 23.5312 13.4167 22.5 13.4167ZM7.5 23C7.5 31.4525 14.2313 38.3333 22.5 38.3333C30.7687 38.3333 37.5 31.4525 37.5 23C37.5 14.5475 30.7687 7.66668 22.5 7.66668C14.2313 7.66668 7.5 14.5475 7.5 23Z"
-        fill="#F5B971"
-      />
-    </svg>
+
+    <a href="Add/index.html">
+      <svg
+        class="imgFooter"
+        width="45"
+        height="46"
+        viewBox="0 0 45 46"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M22.5 3.83334C12.15 3.83334 3.75 12.42 3.75 23C3.75 33.58 12.15 42.1667 22.5 42.1667C32.85 42.1667 41.25 33.58 41.25 23C41.25 12.42 32.85 3.83334 22.5 3.83334ZM22.5 13.4167C21.4688 13.4167 20.625 14.2792 20.625 15.3333V21.0833H15C13.9688 21.0833 13.125 21.9458 13.125 23C13.125 24.0542 13.9688 24.9167 15 24.9167H20.625V30.6667C20.625 31.7208 21.4688 32.5833 22.5 32.5833C23.5312 32.5833 24.375 31.7208 24.375 30.6667V24.9167H30C31.0312 24.9167 31.875 24.0542 31.875 23C31.875 21.9458 31.0312 21.0833 30 21.0833H24.375V15.3333C24.375 14.2792 23.5312 13.4167 22.5 13.4167ZM7.5 23C7.5 31.4525 14.2313 38.3333 22.5 38.3333C30.7687 38.3333 37.5 31.4525 37.5 23C37.5 14.5475 30.7687 7.66668 22.5 7.66668C14.2313 7.66668 7.5 14.5475 7.5 23Z"
+          fill="#F5B971"
+        />
+      </svg>
+    </a>
     <svg
       class="imgFooter"
       width="41"
