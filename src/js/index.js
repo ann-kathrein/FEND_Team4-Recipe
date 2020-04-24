@@ -19,7 +19,7 @@ var simpleSlides = function () {
 var count = 0;
 simpleSlides();
 
-// Slider vor Points
+// Slider vor Points ### Doesn't work!
 
 var simpleSlidesPoints = function () {
   var j;
@@ -28,7 +28,6 @@ var simpleSlidesPoints = function () {
     //slidesPoints[j].setAttribute('style', 'background-color:red');
     //slidesPoints[j].classList.contains('.pointInActive');
     slidesPoints[j].classList.add('.pointActive');
-    console.log('YAY');
   }
   count++;
   if (count > slidesPoints.length) {
@@ -45,3 +44,25 @@ var simpleSlidesPoints = function () {
 
 var count = 0;
 simpleSlidesPoints();
+
+// Categorys
+
+var recipes = document.querySelectorAll('.containerRecipe');
+function checkClass(event) {
+  const currentBtn = event.target;
+  const filterCategory = currentBtn.dataset.category;
+  [...recipes].forEach((recipe) => {
+    if (filterCategory === 'all') {
+      recipe.classList.remove('hide');
+    } else if (recipe.classList.contains(filterCategory)) {
+      recipe.classList.remove('hide');
+    } else {
+      recipe.classList.add('hide');
+    }
+  });
+}
+
+var categoryBtns = document.querySelectorAll('.category');
+[...categoryBtns].forEach((categoryBtn) =>
+  addEventListener('click', checkClass)
+);

@@ -1,74 +1,74 @@
 /* START Daily Recipe */
 .dailyRecipes {
-  margin-top: 90px;
-  align-items: center;
-  height: 60vw;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
+	margin-top: 90px;
+	align-items: center;
+	height: 60vw;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
 }
 
 .dailyRecipesImg {
-  margin: auto;
-  max-width: 80vw;
-  max-height: 60vw;
-  border-radius: 10%;
-  box-shadow: 5px 5px 5px $color-dark;
+	margin: auto;
+	max-width: 80vw;
+	max-height: 60vw;
+	border-radius: 10%;
+	box-shadow: 5px 5px 5px $color-dark;
 }
 
 .slides {
-  display: none;
-  width: 100%;
+	display: none;
+	width: 100%;
 }
 
 .animate-left {
-  position: relative;
-  animation: animateleft 0s;
+	position: relative;
+	animation: animateleft 0s;
 }
 
 @keyframes animateleft {
-  from {
-    left: -500px;
-    opacity: 0;
-  }
-  to {
-    left: 0;
-    opacity: 1;
-  }
+	from {
+		left: -500px;
+		opacity: 0;
+	}
+	to {
+		left: 0;
+		opacity: 1;
+	}
 }
 
 .displaynoneFavourite {
-  display: none;
+	display: none;
 }
 
 .displayFavourite {
-  position: relative;
-  left: 140px;
+	position: relative;
+	left: 140px;
 }
 
 .points {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  height: 20px;
-  width: 100px;
-  margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	height: 20px;
+	width: 100px;
+	margin: auto;
 }
 
 .pointActive {
-  width: 8px;
-  height: 8px;
-  background-color: $color-dark;
-  border-radius: 50%;
+	width: 8px;
+	height: 8px;
+	background-color: $color-dark;
+	border-radius: 50%;
 }
 
 .pointInActive {
-  width: 8px;
-  height: 8px;
-  border: 1px solid $color-dark;
-  border-radius: 50%;
+	width: 8px;
+	height: 8px;
+	border: 1px solid $color-dark;
+	border-radius: 50%;
 }
 
 /* END Daily Recipe */
@@ -76,94 +76,88 @@
 /* START Categorys */
 
 .categorys {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
 
-  button {
-    border: none;
-    font-family: $font-text;
-    font-size: 0.75rem;
-    font-weight: 300;
-    border-radius: 50%;
-    max-width: 40%;
-    min-width: 20%;
-    background-color: $color-green;
-    color: $color-dark;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    box-shadow: 4px 4px 4px $color-dark;
-    text-shadow: 1px 1px 1px $color-dark;
-    appearance: none;
-    &:hover {
-      background-color: $color-dark;
-      color: $color-light;
-      text-shadow: 1px 1px 1px $color-green;
-    }
-  }
-  .active {
-    background-color: $color-dark;
-    color: $color-light;
-    text-shadow: 1px 1px 1px $color-green;
-  }
-  .show {
-    display: block;
-  }
+	button {
+		border: none;
+		font-family: $font-text;
+		font-size: 0.75rem;
+		font-weight: 300;
+		border-radius: 50%;
+		max-width: 40%;
+		min-width: 20%;
+		background-color: $color-green;
+		color: $color-dark;
+		padding: 10px;
+		display: flex;
+		justify-content: center;
+		box-shadow: 4px 4px 4px $color-dark;
+		text-shadow: 1px 1px 1px $color-dark;
+		&:hover {
+			background-color: $color-dark;
+			color: $color-light;
+			text-shadow: 1px 1px 1px $color-green;
+		}
+	}
 }
 
-/*.categorySelected {
-  background-color: $color-dark;
-  color: $color-light;
-}*/
+.active {
+	background-color: $color-dark;
+	color: $color-light;
+	text-shadow: 1px 1px 1px $color-green;
+}
 
-/*catgory class on hover display name*/
+.hide {
+	display: none;
+}
 
 /* END Categorys */
 
 .collectionRecipes {
-  margin: 20px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
+	margin: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
 }
 
 .containerRecipe {
-  width: 50%;
-  height: auto;
+	width: 50%;
+	height: auto;
 }
 
 .recipe {
-  max-width: 80%;
-  opacity: 0.5;
-  border-radius: 10%;
-  box-shadow: 3px 3px 3px $color-dark;
-  &:hover {
-    opacity: 1;
-  }
+	max-width: 80%;
+	opacity: 0.5;
+	border-radius: 10%;
+	box-shadow: 3px 3px 3px $color-dark;
+	&:hover {
+		opacity: 1;
+	}
 }
 
 .recipeName {
-  color: $color-dark;
-  margin: 5px 0 0 0;
+	color: $color-dark;
+	margin: 5px 0 0 0;
 }
 
 .backRecipeName {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding-left: 5px;
-  text-shadow: 1px 1px 1px $color-green;
-  border-radius: 10%;
-  margin-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding-left: 5px;
+	text-shadow: 1px 1px 1px $color-green;
+	border-radius: 10%;
+	margin-bottom: 10px;
 }
 
 .displaynoneFavourite2 {
-  display: none;
+	display: none;
 }
 
 .displayFavourite2 {
