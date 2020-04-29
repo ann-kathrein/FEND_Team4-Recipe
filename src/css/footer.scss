@@ -14,6 +14,52 @@
   height: 60px;
 }
 
+.footerDesktop {
+  display: none;
+}
+
 .imgFooter {
   margin: 10px;
+}
+
+@media (min-width: $breakpoint-tablet) {
+  .clear {
+    display: none;
+  }
+
+  .footerMobile {
+    display: none;
+  }
+
+  .imgFooter {
+    display: none;
+  }
+}
+
+@media (min-width: $breakpoint-desktop) {
+  .clear {
+    display: none;
+  }
+
+  .footerMobile {
+    display: none;
+  }
+
+  .footerDesktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: $color-dark;
+    width: 100%;
+    bottom: 0;
+    height: 60px;
+  }
+
+  .imgFooter {
+    display: none;
+  }
+
+  .impressumFooterDesktop {
+    margin: 5px 0 5px 20px;
+  }
 }

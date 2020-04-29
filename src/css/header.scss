@@ -9,6 +9,14 @@
   height: 80px;
 }
 
+.tablet {
+  display: none;
+}
+
+.desktop {
+  display: none;
+}
+
 .logo {
   position: relative;
   margin: 15px;
@@ -52,4 +60,160 @@
   color: $color-medium;
   text-align: center;
   cursor: pointer;
+}
+
+@media (min-width: $breakpoint-tablet) {
+  .mobile {
+    display: none;
+  }
+
+  .tablet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: fixed;
+    background-color: $color-dark;
+    z-index: 3;
+    width: 100%;
+    top: 0;
+    height: 120px;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .logo {
+    margin: 20px;
+  }
+
+  .searchTerm {
+    padding: 10px;
+    height: 40px;
+  }
+
+  .searchButton {
+    width: 40px;
+    height: 40px;
+  }
+
+  .menuIconBtn {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-right: 10px;
+  }
+
+  .closeIconBtn {
+    background: none;
+    border: none;
+  }
+
+  .menuIcon {
+    cursor: pointer;
+  }
+
+  .menuActive {
+    display: block;
+    position: absolute;
+    background: $color-green;
+    margin: 0 0 0 20%;
+    width: 80%;
+    height: 100vw;
+    & ul {
+      list-style: none;
+      padding-top: 110px;
+      padding-left: 250px;
+    }
+    & h4 {
+      margin: 0;
+      padding: 25px 0 35px 0;
+    }
+    & a {
+      text-decoration: none;
+      color: $color-medium;
+      cursor: pointer;
+    }
+    & a:hover {
+      color: $color-dark;
+    }
+  }
+
+  .menuClose {
+    cursor: pointer;
+    position: absolute;
+
+    margin: 30px 30px 30px 550px;
+  }
+
+  .inactive {
+    display: none;
+  }
+
+  .iconHome {
+    position: absolute;
+    left: 80px;
+    top: 130px;
+  }
+
+  .iconProfil {
+    position: absolute;
+    left: 80px;
+    top: 220px;
+  }
+
+  .iconAdd {
+    position: absolute;
+    left: 80px;
+    top: 310px;
+  }
+
+  .iconFavourites {
+    position: absolute;
+    left: 80px;
+    top: 400px;
+  }
+
+  .iconImpressum {
+    position: absolute;
+    left: 80px;
+    top: 490px;
+  }
+}
+
+@media (min-width: $breakpoint-desktop) {
+  .mobile {
+    display: none;
+  }
+
+  .tablet {
+    display: none;
+  }
+
+  .desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: fixed;
+    background-color: $color-dark;
+    z-index: 3;
+    width: 100%;
+    top: 0;
+    height: 120px;
+  }
+
+  .search {
+    margin: auto 10px auto 15px;
+  }
+
+  .iconsNav {
+    display: flex;
+    flex-direction: row;
+    margin: auto 0 auto 0;
+  }
+
+  .iconNav {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
