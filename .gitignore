@@ -5,3 +5,6 @@ yarn-error.log
 .DS_Store
 .sass-cache
 *.map
+.DS_Store
+src/.DS_Store
+src/images/.DS_Store
