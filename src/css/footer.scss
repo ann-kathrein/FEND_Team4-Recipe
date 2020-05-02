@@ -48,18 +48,38 @@
   .footerDesktop {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     background-color: $color-dark;
     width: 100%;
     bottom: 0;
     height: 60px;
+    & a {
+      text-decoration: none;
+      color: $color-medium;
+      cursor: pointer;
+      margin: auto 0 auto 0;
+    }
+    & a:hover {
+      color: $color-green;
+    }
   }
 
   .imgFooter {
     display: none;
   }
 
+  .container {
+    margin: auto;
+    position: left;
+    height: 60px;
+  }
+
   .impressumFooterDesktop {
-    margin: 5px 0 5px 20px;
+    margin: auto 5px auto 5px;
+  }
+
+  .footerText {
+    color: $color-medium;
+    margin: auto 10px auto 100px;
   }
 }
