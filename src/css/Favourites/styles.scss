@@ -248,3 +248,19 @@ background: #2F4454;
         top: 12.43px;
         bottom: 15.43px;
 }
+
+@media (min-width: $breakpoint-tablet) {
+    .categorys {
+      button {
+        font-size: 1rem;
+        font-weight: 400;
+        border-radius: 50%;
+        max-width: 30%;
+        min-width: 10%;
+      }
+    }
+  
+    .dailyRecipes {
+      margin-top: 120px;
+    }
+  }
