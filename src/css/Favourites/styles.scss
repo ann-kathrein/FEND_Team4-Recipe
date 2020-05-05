@@ -12,20 +12,9 @@
 	left: 5px;
 	top: 3px;
 }
-.navHeading {
-    position: absolute;
-width: 130px;
-height: 13px;
-left: 140px;
-top: 10px;
-
-font-family: Open Sans;
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 19px;
-
-color: #F5B971;
+.search {
+    display: flex;
+    justify-content: flex-end;
 }
 .search-bar {
     position: absolute;
