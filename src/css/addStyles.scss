@@ -1,0 +1,317 @@
+.color {
+  color: $color-medium;
+  margin: 0 10px 5px 10px;
+  font-weight: 600;
+  text-shadow: 1px 1px 1px $color-dark;
+}
+
+.addPicture {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 90px auto 0 auto;
+  height: 60vw;
+  width: 80%;
+  align-items: center;
+  background-color: $color-green;
+  border-radius: 20px;
+}
+
+.uploadPicture {
+  position: relative;
+  align-self: flex-end;
+  margin: 10px;
+  background-color: $color-dark;
+  border-radius: 50%;
+  border: none;
+}
+
+.addCategorys {
+  display: flex;
+  flex-direction: row;
+  margin: 20px auto 0 auto;
+  height: 20vw;
+  width: 80%;
+  align-items: center;
+  background-color: $color-green;
+  border-radius: 20px;
+  select {
+    border: none;
+    width: 80%;
+    height: 20px;
+    padding-left: 10px;
+    color: $color-dark;
+    background-color: $color-green;
+    box-shadow: 2px 2px 5px 1px $color-dark;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+  }
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 80%;
+  width: 100%;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+/*.editCategorys {
+  position: relative;
+  align-self: flex-end;
+  margin: 2px;
+  background-color: $color-dark;
+  border-radius: 50%;
+  border: none;
+}*/
+
+.containerInput {
+  margin: 20px auto 0 auto;
+  height: 45vw;
+  width: 80%;
+  align-items: center;
+  background-color: $color-green;
+  border-radius: 20px;
+  padding-top: 15px;
+  select {
+    border: none;
+    width: 80%;
+    height: 20px;
+    padding-left: 10px;
+    color: $color-dark;
+    background-color: $color-green;
+    box-shadow: 2px 2px 5px 1px $color-dark;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+  }
+  p {
+    margin: 5px;
+    color: $color-dark;
+    font-weight: 300;
+    font-size: 0.875rem;
+  }
+  input {
+    background-color: $color-lighter;
+    border: none;
+    padding-left: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 1px $color-dark;
+  }
+}
+
+.listIngredients {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 90%;
+}
+
+.inputsIngredients {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 25%;
+  height: 90%;
+  input {
+    width: 75px;
+  }
+}
+
+.containerPreps {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 80%;
+  align-items: center;
+  margin-left: 10px;
+  input {
+    width: 100%;
+    margin: 5px;
+  }
+}
+
+.prepsSteps {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  height: 80%;
+}
+
+.inputsPreps {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80%;
+}
+
+.containerInputTime {
+  margin: 20px auto 0 auto;
+  height: 30vw;
+  width: 80%;
+  align-items: center;
+  background-color: $color-green;
+  border-radius: 20px;
+  padding-top: 15px;
+  select {
+    border: none;
+    width: 80%;
+    height: 20px;
+    padding-left: 10px;
+    color: $color-dark;
+    background-color: $color-green;
+    box-shadow: 2px 2px 5px 1px $color-dark;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+  }
+  p {
+    margin: 5px;
+    color: $color-dark;
+    font-weight: 300;
+    font-size: 0.875rem;
+  }
+  input {
+    background-color: $color-lighter;
+    border: none;
+    padding-left: 5px;
+    border-radius: 5px;
+  }
+}
+
+.timecontainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80%;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 10px;
+}
+
+.choosetime {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.dropdownTime {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50%;
+  padding-left: 10px;
+}
+
+.save {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin: 0 0 10px 0;
+  height: 15vw;
+  width: 95%;
+}
+
+.saveBtn {
+  position: relative;
+  align-self: flex-end;
+  margin: 2px;
+  background-color: $color-dark;
+  border-radius: 50%;
+  border: none;
+}
+
+@media (min-width: $breakpoint-tablet) {
+  .addPicture {
+    margin: 160px auto 0 auto;
+    height: 40vw;
+  }
+
+  .color {
+    font-weight: 400;
+    font-size: 1.75rem;
+    margin: 0 20px 5px 20px;
+  }
+
+  .addCategorys {
+    select {
+      height: 40px;
+    }
+  }
+
+  .containerInput {
+    select {
+      height: 40px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 1.25rem;
+    }
+  }
+
+  .dropdown {
+    width: 80%;
+    padding-left: 120px;
+  }
+
+  .inputsIngredients {
+    input {
+      width: 100px;
+      height: 40px;
+    }
+  }
+
+  .containerPreps {
+    padding: 20px 0 0 20px;
+    height: 80%;
+    input {
+      width: 100%;
+      height: 40px;
+    }
+  }
+  .prepsSteps {
+    justify-content: space-evenly;
+    height: 100%;
+  }
+  .inputsPreps {
+    height: 100%;
+    justify-content: space-evenly;
+  }
+
+  .timecontainer {
+    width: 100%;
+    height: 80%;
+  }
+
+  .containerInputTime {
+    padding: 20px 0 0 20px;
+    select {
+      height: 40px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 1.25rem;
+    }
+  }
+
+  .dropdownTime {
+    width: 70%;
+    padding-left: 80px;
+  }
+
+  .save {
+    height: 10vw;
+  }
+}
