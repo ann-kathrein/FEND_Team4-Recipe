@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,6 +17,16 @@
         type="text/css" />
     <link rel="stylesheet" href="../../css/main.scss" />
     <link rel="stylesheet" href="../../css/Favourites/styles.scss" />
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myDIV");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
 </head>
 
 <header>
@@ -102,10 +113,12 @@
                 </div>
                 <div class="Rectangle-box2">
                     <img src="./images/elips/Rectangle 36.png">
-                    <div class="small-elipse">
+                    <div class="btn"></div>
+                    <div class="small-elipse" onclick="myFunction()">
                         <img src="./images/elips/Ellipse 8.png">
-                        <div class="heart-icon">
+                        <div id="myDIV" class="heart-icon">
                             <img src="./images/icon/action/heart.png">
+
                         </div>
                     </div>
                 </div>
