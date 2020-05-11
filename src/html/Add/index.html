@@ -20,6 +20,57 @@
       type="text/css"
     />
     <link rel="stylesheet" href="../../css/main.scss" />
+
+    <!-- <script>
+    function save(){
+      var toSave = document.getElementById('textfield').value;
+      localStorage.setItem('AddRecipe',toSave);
+    }
+    
+  </script>  -->
+
+  <script>
+    let  recipelist= [];
+    const addrecipe = ()=>{
+      
+        let recipe = {
+          category1: document.getElementById('category1').value,
+          category2: document.getElementById('category2').value,
+          amount1: document.getElementById('amount1').value,
+          unit1: document.getElementById('unit1').value,
+          amount2: document.getElementById('amount2').value,
+          unit2: document.getElementById('unit2').value,
+          amount3: document.getElementById('amount3').value,
+          unit3: document.getElementById('unit3').value,
+          amount4: document.getElementById('amount4').value,
+          unit4: document.getElementById('unit4').value,
+          igredient1: document.getElementById('igredient1').value,
+          igredient2: document.getElementById('igredient2').value,
+          igredient3: document.getElementById('igredient3').value,
+          igredient4: document.getElementById('igredient4').value,
+          step1: document.getElementById('step1').value,
+          step2: document.getElementById('step2').value,
+          step3: document.getElementById('step3').value,
+          step4: document.getElementById('step4').value,
+          timePreps: document.getElementById('timePreps').value,
+          timeCooking: document.getElementById('timeCooking').value
+
+        }
+        console.warn('recipe' , {recipe} );
+        recipelist.push(recipe);
+       // document.forms[0].reset(); // to clear the form for the next entries
+        //document.querySelector('form').reset();
+
+        //for display purposes only
+        console.warn('added' , {recipelist} );
+
+        //saving to localStorage
+        localStorage.setItem('MyRecipeList', JSON.stringify(recipelist) );
+    }
+    document.addEventListener('DOMContentLoaded', ()=>{
+        document.getElementById('saveBtnn').addEventListener('click', addrecipe);
+    });
+</script>
   </head>
 
   <header>
@@ -553,15 +604,15 @@
       <div class="addCategorys">
         <h5 class="color">Categorys</h5>
         <div class="dropdown">
-          <select id="category">
-            <option value="Category 1" class="">Choose Category</option>
+          <select id="category1">
+            <option value="Category 1" class="" >Choose Category</option>
             <option value="breakfast" class="">#breakfast</option>
             <option value="dinner" class="">#dinner</option>
             <option value="dessert" class="">#dessert</option>
             <option value="cake" class="">#cake</option>
           </select>
-          <select id="category">
-            <option value="Category 2" class="">Choose Category</option>
+          <select id="category2">
+            <option value="Category 2" class=">Choose Category</option>
             <option value="breakfast" class="">#breakfast</option>
             <option value="dinner" class="">#dinner</option>
             <option value="dessert" class="">#dessert</option>
@@ -669,7 +720,7 @@
     </section>
     <section>
       <div class="save">
-        <button class="saveBtn">
+        <button class="saveBtn" id="saveBtnn" >
           <svg
             width="35"
             height="34"
