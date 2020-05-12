@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Recipes</title>
+    <link rel="icon" href="" />
+    <link rel="icon" href="../../images/favicon.ico" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet" />
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" href="../../css/main.scss" />
+    <link rel="stylesheet" href="../../css/Favourites/styles.scss" />
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myDIV");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+</head>
+
+<header>
+    <nav class="mobile">
+        <a href="index.html">
+            <svg class="logo" width="57" height="45" viewBox="0 0 57 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M56.9381 23.5465C56.5819 20.739 54.7471 18.5705 51.8451 18.1508C51.7071 17.0234 51.5085 15.9143 51.2012 14.8608C51.2915 14.8556 51.3824 14.8543 51.4728 14.8489C52.3009 14.8004 52.686 14.2235 52.6505 13.6665C53.1299 13.6254 53.5797 13.3315 53.591 12.761C53.6071 11.9532 53.6229 11.1451 53.6384 10.3373C53.6471 9.89725 53.2971 9.48969 52.8324 9.3763C50.9198 8.91028 43.98 8.28758 35.8756 7.99314C37.8655 6.60077 37.0752 4.10912 35.6878 2.52488C34.1389 0.75662 31.276 0.161515 28.9323 0.0207901C23.7108 -0.292594 18.4822 2.96438 20.6455 7.93197C10.8267 8.28 2.74854 9.54679 3.3033 12.6027C3.20851 12.9448 3.41986 13.3496 3.95167 13.3991C4.70019 13.4684 5.44991 13.528 6.19963 13.5864C5.94058 14.7055 5.76709 15.8296 5.64278 16.956C2.52944 17.1717 0.273429 19.5063 0.0179587 22.3344C-0.255696 25.3648 2.64212 27.2993 5.70359 27.0974C5.75457 27.7128 5.80942 28.3284 5.86576 28.943C6.23659 32.9778 6.15193 37.5035 8.9001 40.9125C13.3152 46.3886 23.9735 44.383 30.2559 44.5722C37.0209 44.7765 47.2937 46.8646 50.5689 39.5161C51.905 36.5176 52.1298 33.1986 52.1482 29.9314C52.3987 30.1446 52.7468 30.2751 53.163 30.222C56.4507 29.805 57.2487 25.993 56.9381 23.5465ZM2.14996 22.32C2.4263 20.5537 3.73853 19.1375 5.51162 18.4866C5.35869 20.8375 5.42487 23.199 5.58912 25.5608C3.55728 25.3264 1.7991 24.5627 2.14996 22.32ZM28.5195 2.24858C30.2225 2.25507 32.0996 2.68482 33.4217 3.69642C34.8558 4.79326 34.2128 6.21432 34.7232 7.61182C34.7721 7.74578 34.8743 7.86892 35.0025 7.9631C30.9075 7.82778 26.5562 7.77934 22.4293 7.87866C22.4302 7.81939 22.44 7.76202 22.4248 7.70005C21.4933 3.87909 24.7157 2.23396 28.5195 2.24858ZM5.00604 12.0463C6.5338 10.4943 11.1153 10.274 12.7384 10.1027C17.6547 9.5836 22.6574 9.60065 27.5989 9.65288C32.697 9.707 37.7942 9.94786 42.8759 10.3108C44.7509 10.4447 46.623 10.6112 48.4912 10.8076C49.2585 10.8883 50.0234 10.9852 50.7862 11.0926C52.3152 11.308 51.5178 11.19 51.4924 12.6162C51.485 12.6157 51.4802 12.6122 51.4728 12.6116C51.0569 12.5854 50.6402 12.5672 50.224 12.5445C49.7426 12.079 48.9884 12.0918 48.5308 12.4552C41.9005 12.16 35.2154 12.2257 28.5871 12.0125C20.7507 11.7608 12.8338 11.4414 5.00604 12.0463ZM48.8414 35.9081C47.3969 44.4845 37.1593 42.4093 30.2562 42.1165C24.6156 41.8768 14.6776 44.0152 10.8321 39.0866C8.46607 36.0543 9.01696 31.1681 8.65119 27.6413C8.17125 23.0134 7.76495 18.3648 8.00372 13.7166C14.268 14.1415 20.5659 14.2597 26.837 14.4787C33.9675 14.7276 41.2572 15.1896 48.4229 14.9809C49.632 21.7566 49.9763 29.1674 48.8414 35.9081ZM52.5584 28.2289C52.3939 28.2597 52.2597 28.3133 52.1468 28.3796C52.1411 27.7109 52.1348 27.0454 52.1319 26.3894C52.122 24.2677 52.1658 21.8979 51.987 19.5588C53.6244 20.4091 54.5572 22.1755 54.7715 23.9097C54.9703 25.5223 54.6117 27.8446 52.5584 28.2289Z"
+                    fill="#F5B971" />
+            </svg>
+        </a>
+        <h4 class="navHeading">Favourites</h4>
+        <div class="search">
+            <input type="text" class="searchTerm" placeholder="Hunger?" />
+            <button type="submit" class="searchButton">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div class="background-main">
+        <div class="slider-main">
+            <div class="categorys" id="categorys">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M9.41421 12L16.7071 19.2929L15.2929 20.7071L6.58578 12L15.2929 3.29289L16.7071 4.70711L9.41421 12Z"
+                        fill="#2F4454" />
+                </svg>
+                <button class="category" data-category="all">
+                    all
+                </button>
+                <button class="category" data-category="breakfast">
+                    #breakfast
+                </button>
+                <button class="category" data-category="dinner">
+                    #dinner
+                </button>
+                <button class="category" data-category="dessert">
+                    #dessert
+                </button>
+                <button class="category" data-category="cake">
+                    #cake
+                </button>
+
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M14.5858 12L7.29289 4.70711L8.70711 3.29289L17.4142 12L8.70711 20.7071L7.29289 19.2929L14.5858 12Z"
+                        fill="#2F4454" />
+                </svg>
+            </div>
+        </div>
+        <div class="Rectangle-box1-2">
+            <div class="Rectangle-box1">
+                <img src="./images/elips/Rectangle 36.png">
+                <div class="btn"></div>
+                <div class="small-elipse" onclick="myFunction()">
+                    <img src="./images/elips/Ellipse 8.png">
+                    <div id="myDIV" class="heart-icon">
+                        <img src="./images/icon/action/heart.png">
+                    </div>
+                </div>
+
+            </div>
+            <div class="Rectangle-box2">
+                <img src="./images/elips/Rectangle 36.png">
+                <div class="btn"></div>
+                <div class="small-elipse1" onclick="myFunction()">
+                    <img src="./images/elips/Ellipse 8.png">
+                    <div id="myDIV" class="heart-icon">
+                        <img src="./images/icon/action/heart.png">
+                    </div>
+                </div>
+            </div>
+            <div class="Rectangle-box3-4">
+                <div class="Rectangle-box1">
+                    <img src="./images/elips/Rectangle 36.png">
+                    <div class="btn"></div>
+                    <div class="small-elipse2" onclick="myFunction()">
+                        <img src="./images/elips/Ellipse 8.png">
+                        <div id="myDIV" class="heart-icon">
+                            <img src="./images/icon/action/heart.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="Rectangle-box2">
+                    <img src="./images/elips/Rectangle 36.png">
+                    <div class="btn"></div>
+                    <div class="small-elipse3" onclick="myFunction()">
+                        <img src="./images/elips/Ellipse 8.png">
+                        <div id="myDIV" class="heart-icon">
+                            <img src="./images/icon/action/heart.png">
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+<footer class="footerMobile">
+    <svg class="imgFooter" width="42" height="41" viewBox="0 0 42 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M21 3.41666C11.34 3.41666 3.5 11.07 3.5 20.5C3.5 29.93 11.34 37.5833 21 37.5833C30.66 37.5833 38.5 29.93 38.5 20.5C38.5 11.07 30.66 3.41666 21 3.41666ZM21 8.54166C23.905 8.54166 26.25 10.8308 26.25 13.6667C26.25 16.5025 23.905 18.7917 21 18.7917C18.095 18.7917 15.75 16.5025 15.75 13.6667C15.75 10.8308 18.095 8.54166 21 8.54166ZM10.5 27.2992C12.7575 30.6133 16.625 32.8 21 32.8C25.375 32.8 29.2425 30.6133 31.5 27.2992C31.4475 23.8996 24.4825 22.0375 21 22.0375C17.5 22.0375 10.5525 23.8996 10.5 27.2992Z"
+            fill="#F5B971" />
+    </svg>
+    <a href="Add/index.html">
+        <svg class="imgFooter" width="45" height="46" viewBox="0 0 45 46" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M22.5 3.83334C12.15 3.83334 3.75 12.42 3.75 23C3.75 33.58 12.15 42.1667 22.5 42.1667C32.85 42.1667 41.25 33.58 41.25 23C41.25 12.42 32.85 3.83334 22.5 3.83334ZM22.5 13.4167C21.4688 13.4167 20.625 14.2792 20.625 15.3333V21.0833H15C13.9688 21.0833 13.125 21.9458 13.125 23C13.125 24.0542 13.9688 24.9167 15 24.9167H20.625V30.6667C20.625 31.7208 21.4688 32.5833 22.5 32.5833C23.5312 32.5833 24.375 31.7208 24.375 30.6667V24.9167H30C31.0312 24.9167 31.875 24.0542 31.875 23C31.875 21.9458 31.0312 21.0833 30 21.0833H24.375V15.3333C24.375 14.2792 23.5312 13.4167 22.5 13.4167ZM7.5 23C7.5 31.4525 14.2313 38.3333 22.5 38.3333C30.7687 38.3333 37.5 31.4525 37.5 23C37.5 14.5475 30.7687 7.66668 22.5 7.66668C14.2313 7.66668 7.5 14.5475 7.5 23Z"
+                fill="#F5B971" />
+        </svg>
+    </a>
+    <a href="Favourites/index.html">
+        <svg class="imgFooter" width="41" height="41" viewBox="0 0 41 41" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M20.5005 8.99814C23.5071 5.47897 29.0763 4.04397 33.5863 7.11897C35.978 8.75897 37.4813 11.5265 37.5838 14.4306C37.8059 21.059 31.9463 26.3719 22.9776 34.5036L22.7896 34.6744C21.4913 35.8702 19.4925 35.8702 18.1942 34.6915L18.0234 34.5377L17.9202 34.444C9.00959 26.3481 3.17888 21.0506 3.41713 14.4477C3.51963 11.5265 5.02297 8.75897 7.41463 7.11897C11.9246 4.02689 17.4938 5.47897 20.5005 8.99814ZM20.5005 32.1631L20.6713 31.9923C28.803 24.6294 34.1671 19.7606 34.1671 14.8235C34.1671 11.4069 31.6046 8.84438 28.188 8.84438C25.5571 8.84438 22.9946 10.5356 22.1063 12.876H18.9117C18.0063 10.5356 15.4438 8.84438 12.813 8.84438C9.3963 8.84438 6.8338 11.4069 6.8338 14.8235C6.8338 19.7606 12.198 24.6294 20.3296 31.9923L20.5005 32.1631Z"
+                fill="#F5B971" />
+        </svg>
+    </a>
+</footer>
+</html>
