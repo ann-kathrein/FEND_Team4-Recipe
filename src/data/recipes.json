@@ -1,223 +1,221 @@
-{
-  "recipe": [
-    {
-      "name": "Pasta Carbonara”",
-      "id": "pasta-carbonara",
-      "description": "A classic!",
-      "tag": ["dinner"],
-      "image": "https://cdn.pixabay.com/photo/2015/04/08/13/13/pasta-712664_1280.jpg",
-      "categorys": [
-        {
-          "category1": "#dinner"
-        }
-      ],
-      "ingredient": [
-        {
-          "amount": "100",
-          "unit": "grams",
-          "name": "pancetta"
-        },
-        {
-          "amount": "50",
-          "unit": "grams",
-          "name": "parmesan"
-        },
-        {
-          "amount": "50",
-          "unit": "grams",
-          "name": "baking powder"
-        },
-        {
-          "amount": "3",
-          "name": "eggs"
-        },
-        {
-          "amount": "350",
-          "unit": "grams",
-          "name": "spaghetti"
-        },
-        {
-          "amount": "2",
-          "unit": "plump",
-          "name": "garlic cloves "
-        },
-        {
-          "amnount": "50",
-          "unit": "grams",
-          "name": "unsalted butter"
-        },
-        {
-          "name": "sea salt and freshly grated black pepper"
-        }
-      ],
-      "ingredientGroup": [
-        {
-          "ingredient": []
-        }
-      ],
-      "step": [
-        {
-          "description": "Put a large saucepan of water on to boil."
-        },
-        {
-          "description": "Finely chop the 100g pancetta, having first removed any rind. Finely grate 50g pecorino cheese and 50g parmesan and mix them together."
-        },
-        {
-          "description": "Beat the 3 large eggs in a medium bowl and season with a little freshly grated black pepper. Set everything aside."
-        },
-        {
-          "description": "Add 1 tsp salt to the boiling water, add 350g spaghetti and when the water comes back to the boil, cook at a constant simmer, covered, for 10 minutes or until al dente (just cooked)."
-        },
-        {
-          "description": "..."
-        }
-      ],
-      "categorys": [
-        {
-          "preparation": "10 min",
-          "cooking": "20min"
-        }
-      ],
-      "notes": "\n-"
-    },
-    {
-      "name": "Chocolate Muffins",
-      "id": "chocolate-muffins",
-      "description": "Delicious. Simple. Sweet.!",
-      "tag": ["cake"],
-      "image": "https://cdn.pixabay.com/photo/2015/12/08/00/42/cupcakes-1081963_1280.jpg",
-      "categorys": [
-        {
-          "category1": "#cake"
-        }
-      ],
-      "ingredient": [
-        {
-          "amount": "1 1/4 ",
-          "unit": "cups",
-          "name": "buttermilk"
-        },
-        {
-          "amount": "2 1/2",
-          "unit": "teaspoons",
-          "name": "baking powder"
-        },
-        {
-          "amount": "2",
-          "unit": "cups",
-          "name": "all-purpose flour"
-        },
-        {
-          "amount": "2",
-          "name": "eggs"
-        },
-        {
-          "amount": "170 cup",
-          "unit": "grams",
-          "name": "mix of chocolate chips and chunks"
-        },
-        {
-          "amount": "1  ",
-          "unit": "teaspoon",
-          "name": "vanilla extract"
-        },
-        {
-          "amnount": "250",
-          "unit": "grams",
-          "name": "granulated sugar"
-        }
-      ],
-      "ingredientGroup": [
-        {
-          "ingredient": []
-        }
-      ],
-      "step": [
-        {
-          "description": "Preheat oven to 220C/425F degrees. Butter 12 muffin cups or line them with liner paper."
-        },
-        {
-          "description": "Melt the butter in a medium bowl in the microwave, and let it cool a bit while you prepare the other ingredients."
-        },
-        {
-          "description": "In a large bowl sift together flour, cocoa, baking powder, baking soda and salt. Add sugar and mix. Set aside."
-        },
-        {
-          "description": "In a medium bowl, whisk the eggs with the buttermilk, oil, melted butter, coffee granules and vanilla extract. Pour the wet ingredients into the dry ingredients and stir with a wooden spoon or a rubber spatula just until combined. Do not over mix. The batter should be thick and lumpy. Add chocolate chips/chunks and stir."
-        },
-        {
-          "description": "..."
-        }
-      ],
-      "categorys": [
-        {
-          "preparation": "15 min",
-          "cooking": "60 min"
-        }
-      ],
-      "notes": "\n-"
-    },
-    {
-      "name": "Pancakes",
-      "id": "pancakes",
-      "description": "BEAUTIFULLY FLUFFY & THICK",
-      "tag": ["breakfast"],
-      "image": "https://cdn.pixabay.com/photo/2017/01/16/17/45/pancake-1984716_1280.jpg",
-      "categorys": [
-        {
-          "category1": "#breakfast"
-        }
-      ],
-      "ingredient": [
-        {
-          "amount": "140",
-          "unit": "ml",
-          "name": "milk"
-        },
-        {
-          "amount": "2",
-          "unit": "teaspoons",
-          "name": "baking powder"
-        },
-        {
-          "amount": "12",
-          "unit": "grams",
-          "name": "all-purpose flour"
-        },
-        {
-          "amount": "3",
-          "name": "eggs"
-        }
-      ],
-      "ingredientGroup": [
-        {
-          "ingredient": []
-        }
-      ],
-      "step": [
-        {
-          "description": "First separate the eggs, putting the whites into one bowl and the yolks into another."
-        },
-        {
-          "description": "Add the flour, baking powder and milk to the yolks and mix to a smooth thick batter."
-        },
-        {
-          "description": "Whisk the whites with 1 pinch of sea salt until they form stiff peaks, then fold into the batter – it is now ready to use."
-        },
-        {
-          "description": "Heat a non-stick pan over a medium heat, pour some of the batter into the pan and cook for a couple of minutes, or until it starts to look golden and firm."
-        },
-        {
-          "description": "..."
-        }
-      ],
-      "categorys": [
-        {
-          "preparation": "10 min",
-          "cooking": "10min"
-        }
-      ],
-      "notes": "\n-"
-    }
-  ]
-}
+[
+  {
+    "name": "Pasta Carbonara",
+    "id": "pasta-carbonara",
+    "description": "A classic!",
+    "tag": ["dinner"],
+    "image": "https://cdn.pixabay.com/photo/2015/04/08/13/13/pasta-712664_1280.jpg",
+    "categorys": [
+      {
+        "category1": "#dinner"
+      }
+    ],
+    "ingredient": [
+      {
+        "amount": "100",
+        "unit": "grams",
+        "name": "pancetta"
+      },
+      {
+        "amount": "50",
+        "unit": "grams",
+        "name": "parmesan"
+      },
+      {
+        "amount": "50",
+        "unit": "grams",
+        "name": "baking powder"
+      },
+      {
+        "amount": "3",
+        "name": "eggs"
+      },
+      {
+        "amount": "350",
+        "unit": "grams",
+        "name": "spaghetti"
+      },
+      {
+        "amount": "2",
+        "unit": "plump",
+        "name": "garlic cloves "
+      },
+      {
+        "amnount": "50",
+        "unit": "grams",
+        "name": "unsalted butter"
+      },
+      {
+        "name": "sea salt and freshly grated black pepper"
+      }
+    ],
+    "ingredientGroup": [
+      {
+        "ingredient": []
+      }
+    ],
+    "step": [
+      {
+        "description": "Put a large saucepan of water on to boil."
+      },
+      {
+        "description": "Finely chop the 100g pancetta, having first removed any rind. Finely grate 50g pecorino cheese and 50g parmesan and mix them together."
+      },
+      {
+        "description": "Beat the 3 large eggs in a medium bowl and season with a little freshly grated black pepper. Set everything aside."
+      },
+      {
+        "description": "Add 1 tsp salt to the boiling water, add 350g spaghetti and when the water comes back to the boil, cook at a constant simmer, covered, for 10 minutes or until al dente (just cooked)."
+      },
+      {
+        "description": "..."
+      }
+    ],
+    "time": [
+      {
+        "preparation": "10 min",
+        "cooking": "20min"
+      }
+    ],
+    "notes": "\n-"
+  },
+  {
+    "name": "Chocolate Muffins",
+    "id": "chocolate-muffins",
+    "description": "Delicious. Simple. Sweet.!",
+    "tag": ["cake"],
+    "image": "https://cdn.pixabay.com/photo/2015/12/08/00/42/cupcakes-1081963_1280.jpg",
+    "categorys": [
+      {
+        "category1": "#cake"
+      }
+    ],
+    "ingredient": [
+      {
+        "amount": "1 1/4 ",
+        "unit": "cups",
+        "name": "buttermilk"
+      },
+      {
+        "amount": "2 1/2",
+        "unit": "teaspoons",
+        "name": "baking powder"
+      },
+      {
+        "amount": "2",
+        "unit": "cups",
+        "name": "all-purpose flour"
+      },
+      {
+        "amount": "2",
+        "name": "eggs"
+      },
+      {
+        "amount": "170 cup",
+        "unit": "grams",
+        "name": "mix of chocolate chips and chunks"
+      },
+      {
+        "amount": "1  ",
+        "unit": "teaspoon",
+        "name": "vanilla extract"
+      },
+      {
+        "amnount": "250",
+        "unit": "grams",
+        "name": "granulated sugar"
+      }
+    ],
+    "ingredientGroup": [
+      {
+        "ingredient": []
+      }
+    ],
+    "step": [
+      {
+        "description": "Preheat oven to 220C/425F degrees. Butter 12 muffin cups or line them with liner paper."
+      },
+      {
+        "description": "Melt the butter in a medium bowl in the microwave, and let it cool a bit while you prepare the other ingredients."
+      },
+      {
+        "description": "In a large bowl sift together flour, cocoa, baking powder, baking soda and salt. Add sugar and mix. Set aside."
+      },
+      {
+        "description": "In a medium bowl, whisk the eggs with the buttermilk, oil, melted butter, coffee granules and vanilla extract. Pour the wet ingredients into the dry ingredients and stir with a wooden spoon or a rubber spatula just until combined. Do not over mix. The batter should be thick and lumpy. Add chocolate chips/chunks and stir."
+      },
+      {
+        "description": "..."
+      }
+    ],
+    "time": [
+      {
+        "preparation": "15 min",
+        "cooking": "60 min"
+      }
+    ],
+    "notes": "\n-"
+  },
+  {
+    "name": "Pancakes",
+    "id": "pancakes",
+    "description": "BEAUTIFULLY FLUFFY & THICK",
+    "tag": ["breakfast"],
+    "image": "https://cdn.pixabay.com/photo/2017/01/16/17/45/pancake-1984716_1280.jpg",
+    "categorys": [
+      {
+        "category1": "#breakfast"
+      }
+    ],
+    "ingredient": [
+      {
+        "amount": "140",
+        "unit": "ml",
+        "name": "milk"
+      },
+      {
+        "amount": "2",
+        "unit": "teaspoons",
+        "name": "baking powder"
+      },
+      {
+        "amount": "12",
+        "unit": "grams",
+        "name": "all-purpose flour"
+      },
+      {
+        "amount": "3",
+        "name": "eggs"
+      }
+    ],
+    "ingredientGroup": [
+      {
+        "ingredient": []
+      }
+    ],
+    "step": [
+      {
+        "description": "First separate the eggs, putting the whites into one bowl and the yolks into another."
+      },
+      {
+        "description": "Add the flour, baking powder and milk to the yolks and mix to a smooth thick batter."
+      },
+      {
+        "description": "Whisk the whites with 1 pinch of sea salt until they form stiff peaks, then fold into the batter – it is now ready to use."
+      },
+      {
+        "description": "Heat a non-stick pan over a medium heat, pour some of the batter into the pan and cook for a couple of minutes, or until it starts to look golden and firm."
+      },
+      {
+        "description": "..."
+      }
+    ],
+    "time": [
+      {
+        "preparation": "10 min",
+        "cooking": "10min"
+      }
+    ],
+    "notes": "\n-"
+  }
+]
