@@ -1,52 +1,31 @@
 [
   {
-    "name": "Pasta Carbonara",
-    "id": "pasta-carbonara",
-    "description": "A classic!",
-    "tag": ["dinner"],
-    "image": "https://cdn.pixabay.com/photo/2015/04/08/13/13/pasta-712664_1280.jpg",
-    "categorys": [
-      {
-        "category1": "#dinner"
-      }
-    ],
+    "name": "Smoothie Bowl",
+    "id": "smoothie-bowl",
+    "description": "try and love it! - perfect breakfastt",
+    "tag": ["breakfast"],
+    "image": "https://cdn.pixabay.com/photo/2016/02/19/10/29/breakfast-1209260_1280.jpg",
+    "categorys": ["breakfast"],
     "ingredient": [
       {
-        "amount": "100",
-        "unit": "grams",
-        "name": "pancetta"
+        "amount": "1",
+        "unit": "cup",
+        "name": "frozen mixed berries"
       },
       {
-        "amount": "50",
-        "unit": "grams",
-        "name": "parmesan"
+        "amount": "1",
+        "unit": "ripe",
+        "name": "banana"
       },
       {
-        "amount": "50",
-        "unit": "grams",
-        "name": "baking powder"
+        "amount": "2-3",
+        "unit": "tablespoons",
+        "name": "almond milk"
       },
       {
-        "amount": "3",
-        "name": "eggs"
-      },
-      {
-        "amount": "350",
-        "unit": "grams",
-        "name": "spaghetti"
-      },
-      {
-        "amount": "2",
-        "unit": "plump",
-        "name": "garlic cloves "
-      },
-      {
-        "amnount": "50",
-        "unit": "grams",
-        "name": "unsalted butter"
-      },
-      {
-        "name": "sea salt and freshly grated black pepper"
+        "amount": "1",
+        "unit": "scoop",
+        "name": "vanilla protein powder"
       }
     ],
     "ingredientGroup": [
@@ -56,16 +35,67 @@
     ],
     "step": [
       {
-        "description": "Put a large saucepan of water on to boil."
+        "description": "Add frozen berries and banana to a blender and blend on low until small bits remain."
       },
       {
-        "description": "Finely chop the 100g pancetta, having first removed any rind. Finely grate 50g pecorino cheese and 50g parmesan and mix them together."
+        "description": "Add a bit of coconut or almond milk and protein powder (optional), and blend on low again, scraping down sides as needed, until the mixture reaches a soft serve consistency ."
       },
       {
-        "description": "Beat the 3 large eggs in a medium bowl and season with a little freshly grated black pepper. Set everything aside."
+        "description": "Scoop into 1-2 serving bowls (amount as original recipe is written // adjust if altering batch size) and top with desired toppings (optional). I prefer chia seeds, hemp seeds, and coconut, but strawberries, granola, and a nut or seed butter would be great here, too!"
       },
       {
-        "description": "Add 1 tsp salt to the boiling water, add 350g spaghetti and when the water comes back to the boil, cook at a constant simmer, covered, for 10 minutes or until al dente (just cooked)."
+        "description": "Best when fresh, though leftovers keep in the freezer for 1-2 weeks. Let thaw before enjoying."
+      }
+    ],
+    "time": [
+      {
+        "preparation": "5 min",
+        "cooking": "10min"
+      }
+    ],
+    "notes": "\n-"
+  },
+  {
+    "name": "Pizza",
+    "id": "pizza",
+    "description": "Classic homemade pizza.",
+    "tag": ["dinner"],
+    "image": "https://cdn.pixabay.com/photo/2017/12/05/20/09/pizza-3000274_1280.jpg",
+    "categorys": ["dinner"],
+    "ingredient": [
+      {
+        "amount": "335",
+        "unit": "ml",
+        "name": "warm water"
+      },
+      {
+        "amount": "1",
+        "unit": "package",
+        "name": "yeast"
+      },
+      {
+        "amount": "490",
+        "unit": "grams",
+        "name": "flour"
+      },
+      {
+        "name": "salt"
+      }
+    ],
+    "ingredientGroup": [
+      {
+        "ingredient": []
+      }
+    ],
+    "step": [
+      {
+        "description": "Proof the yeast: Place the warm water in the large bowl of a heavy duty stand mixer. Sprinkle the yeast over the warm water and let it sit for 5 minutes until the yeast is dissolved."
+      },
+      {
+        "description": "Make and knead the pizza dough."
+      },
+      {
+        "description": "Prep toppings: Prepare your desired toppings. Note that you are not going to want to load up each pizza with a lot of toppings as the crust will end up not crisp that way."
       },
       {
         "description": "..."
@@ -73,7 +103,59 @@
     ],
     "time": [
       {
-        "preparation": "10 min",
+        "preparation": "2 hours",
+        "cooking": "30 min"
+      }
+    ],
+    "notes": "\n-"
+  },
+
+  {
+    "name": "Baked Salmon",
+    "id": "salmon-asparagus",
+    "description": "Best and easiest way to get salmon on your dinner table!",
+    "tag": ["dinner"],
+    "image": "https://cdn.pixabay.com/photo/2019/01/17/20/20/puerto-rican-food-3938571_1280.jpg",
+    "categorys": ["dinner"],
+    "ingredient": [
+      {
+        "amount": "4-6",
+        "unit": "fillets",
+        "name": "salmon"
+      },
+      {
+        "amount": "1/3",
+        "unit": "cup",
+        "name": "squeezed lemon juice"
+      },
+      {
+        "amount": "4",
+        "unit": "bunches",
+        "name": "asparagus "
+      }
+    ],
+    "ingredientGroup": [
+      {
+        "ingredient": []
+      }
+    ],
+    "step": [
+      {
+        "description": "Preheat oven broiler (or grill) to high heat. Line a baking sheet with aluminium foil. Arrange oven shelf to the second top shelf (about 8-inches from the heat element)."
+      },
+      {
+        "description": "Place the salmon on a large baking tray. Rub each fillet evenly with the garlic and parsley to evenly coat; pour over the lemon juice. Spray with a light coating of olive oil spray and season with salt and pepper. Arrange the asparagus and greens around the salmon in a single layer, and place the lemon slices over the top."
+      },
+      {
+        "description": "Broil (or grill) for 8-10 minutes, or until salmon is cooked through to your liking (we find 8 minutes is perfect if the oven is hot)."
+      },
+      {
+        "description": "Serve with the asparagus and beans/peas and these Crispy Smashed Potatoes!"
+      }
+    ],
+    "time": [
+      {
+        "preparation": "15 min",
         "cooking": "20min"
       }
     ],
@@ -85,11 +167,7 @@
     "description": "Delicious. Simple. Sweet.!",
     "tag": ["cake"],
     "image": "https://cdn.pixabay.com/photo/2015/12/08/00/42/cupcakes-1081963_1280.jpg",
-    "categorys": [
-      {
-        "category1": "#cake"
-      }
-    ],
+    "categorys": ["cake"],
     "ingredient": [
       {
         "amount": "1 1/4 ",
@@ -157,16 +235,80 @@
     "notes": "\n-"
   },
   {
+    "name": "Cheesecake",
+    "id": "cheesecake",
+    "description": "New York Style",
+    "tag": ["cake"],
+    "image": "https://cdn.pixabay.com/photo/2016/08/08/16/20/cheesecake-1578694_1280.jpg",
+    "categorys": ["cake"],
+    "ingredient": [
+      {
+        "amount": "230",
+        "unit": "grams",
+        "name": "cracker crumbs"
+      },
+      {
+        "amount": "2",
+        "unit": "tablespoons",
+        "name": "sugar"
+      },
+      {
+        "amount": "900",
+        "unit": "grams",
+        "name": "cream cheese"
+      },
+      {
+        "amount": "4",
+        "name": "eggs"
+      },
+      {
+        "amount": "275",
+        "unit": "ml",
+        "name": "whipping cream"
+      },
+      {
+        "amount": "1",
+        "unit": "tablespoon",
+        "name": "vanilla extract"
+      }
+    ],
+    "ingredientGroup": [
+      {
+        "ingredient": []
+      }
+    ],
+    "step": [
+      {
+        "description": "Preheat oven to 350°F (175°C), with rack in lower third of oven."
+      },
+      {
+        "description": "Press the cracker crumbs into the bottom of the springform pan."
+      },
+      {
+        "description": "Triple wrap pan in heavy duty foil."
+      },
+      {
+        "description": "Beat cream cheese, then sugar."
+      },
+      {
+        "description": "..."
+      }
+    ],
+    "time": [
+      {
+        "preparation": "10 min",
+        "cooking": "20min"
+      }
+    ],
+    "notes": "\n-"
+  },
+  {
     "name": "Pancakes",
     "id": "pancakes",
     "description": "BEAUTIFULLY FLUFFY & THICK",
     "tag": ["breakfast"],
     "image": "https://cdn.pixabay.com/photo/2017/01/16/17/45/pancake-1984716_1280.jpg",
-    "categorys": [
-      {
-        "category1": "#breakfast"
-      }
-    ],
+    "categorys": ["breakfast"],
     "ingredient": [
       {
         "amount": "140",
@@ -214,6 +356,134 @@
       {
         "preparation": "10 min",
         "cooking": "10min"
+      }
+    ],
+    "notes": "\n-"
+  },
+  {
+    "name": "Nougat Mousse",
+    "id": "nougat-mousse",
+    "description": "love or hate",
+    "tag": ["dessert"],
+    "image": "https://cdn.pixabay.com/photo/2017/08/12/22/06/chocolate-mousse-2635501_1280.jpg",
+    "categorys": ["dessert"],
+    "ingredient": [
+      {
+        "amount": "295",
+        "unit": "grams",
+        "name": "Toblerone"
+      },
+      {
+        "amount": "6",
+        "unit": "tablepoons",
+        "name": "boiling water"
+      },
+      {
+        "amount": "275",
+        "unit": "ml",
+        "name": "creme fraiche"
+      },
+      {
+        "amount": "2",
+        "name": "eggs"
+      }
+    ],
+    "ingredientGroup": [
+      {
+        "ingredient": []
+      }
+    ],
+    "step": [
+      {
+        "description": "Place the chocolate and the boiling water in a heatproof bowl suspended over a saucepan of barely simmering water."
+      },
+      {
+        "description": "Allow the chocolate to melt slowly. Remove from heat,cool until it thickens and then fold in the creme fraiche."
+      },
+      {
+        "description": "Whisk the egg whites until stiff peaks form and fold into the mixture. Chill in the fridge for at least 6 hours."
+      }
+    ],
+    "time": [
+      {
+        "preparation": "15 min",
+        "cooking": "10min"
+      }
+    ],
+    "notes": "\n-"
+  },
+  {
+    "name": "Pasta",
+    "id": "pasta",
+    "description": "A classic!",
+    "tag": ["dinner"],
+    "image": "https://cdn.pixabay.com/photo/2018/07/18/19/12/spaghetti-3547078_1280.jpg",
+    "categorys": ["dinner"],
+    "ingredient": [
+      {
+        "amount": "100",
+        "unit": "grams",
+        "name": "pancetta"
+      },
+      {
+        "amount": "50",
+        "unit": "grams",
+        "name": "parmesan"
+      },
+      {
+        "amount": "50",
+        "unit": "grams",
+        "name": "baking powder"
+      },
+      {
+        "amount": "3",
+        "name": "eggs"
+      },
+      {
+        "amount": "350",
+        "unit": "grams",
+        "name": "spaghetti"
+      },
+      {
+        "amount": "2",
+        "unit": "plump",
+        "name": "garlic cloves "
+      },
+      {
+        "amnount": "50",
+        "unit": "grams",
+        "name": "unsalted butter"
+      },
+      {
+        "name": "sea salt and freshly grated black pepper"
+      }
+    ],
+    "ingredientGroup": [
+      {
+        "ingredient": []
+      }
+    ],
+    "step": [
+      {
+        "description": "Put a large saucepan of water on to boil."
+      },
+      {
+        "description": "Finely chop the 100g pancetta, having first removed any rind. Finely grate 50g pecorino cheese and 50g parmesan and mix them together."
+      },
+      {
+        "description": "Beat the 3 large eggs in a medium bowl and season with a little freshly grated black pepper. Set everything aside."
+      },
+      {
+        "description": "Add 1 tsp salt to the boiling water, add 350g spaghetti and when the water comes back to the boil, cook at a constant simmer, covered, for 10 minutes or until al dente (just cooked)."
+      },
+      {
+        "description": "..."
+      }
+    ],
+    "time": [
+      {
+        "preparation": "10 min",
+        "cooking": "20min"
       }
     ],
     "notes": "\n-"

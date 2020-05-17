@@ -22,31 +22,20 @@ var count = 0;
 simpleSlides();
 
 // Slider vor Points ### Doesn't work!
-
-/*var points = function () {
-  var j;
-  var slidePoints = document.querySelectorAll('.point');
-  var img = document.querySelectorAll('.dailyRecipesImg');
-  for (j = 0; j < slidePoints.length; j++) {
-    if (img.classList.contains('display')) {
-      slidePoints.classList.add('pointActive');
-    } else {
-      slidePoints.classList.remove('pointActive');
-    }
-    countPoints++;
-    if (countPoints > slidePoints.length) {
-      countPoints = 1;
-    }
+var points = document.querySelectorAll('.point');
+function changecolor(points) {
+  function filled(points) {
+    points.classList.add('pointActive');
   }
-  slidePoints[count - 1].classList.add('pointInActive');
-  slidePoints[count - 1].classList.remove('pointInActive');
-  setTimeout(simpleSlides, 3600);
-};
+  function unfilled(points) {
+    points.classList.remove('pointActive');
+    points.classList.remove('pointInActive');
+  }
+  setTimeout(unfilled, 3600, points);
+  filled(points);
+}
 
-var countPoints = 0;
-points();*/
-
-// Categorys
+// Categorys  #### Doesn't work since data loaded from JSON!
 
 var recipes = document.querySelectorAll('.containerRecipe');
 function checkClass(event) {
