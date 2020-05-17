@@ -20,12 +20,18 @@
 }
 
 .likeBtn {
+  background-image: url(../images/heart_unliked.svg);
+  background-repeat: no-repeat;
+  background-color: $color-dark;
+  width: 30px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
   position: relative;
   align-self: flex-end;
-  margin: 0 25px 30px 0;
-  background-color: $color-dark;
+  margin: 0 25px 80px 0;
   border-radius: 50%;
-  border: none;
+  background-position: center;
 }
 
 .dailyRecipesImg {
@@ -61,15 +67,6 @@
   }
 }
 
-.displaynoneFavourite {
-  display: none;
-}
-
-.displayFavourite {
-  position: relative;
-  left: 140px;
-}
-
 .points {
   display: flex;
   flex-direction: row;
@@ -77,6 +74,7 @@
   height: 20px;
   width: 100px;
   margin: auto;
+  margin-bottom: 20px;
 }
 
 .pointActive {
@@ -103,6 +101,7 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
+  margin-bottom: 40px;
 
   button {
     border: none;
@@ -151,6 +150,7 @@
 .containerRecipe {
   width: 50%;
   height: auto;
+  margin-bottom: 20px;
 }
 
 .recipe {
@@ -178,11 +178,24 @@
   margin-bottom: 10px;
 }
 
-.displaynoneFavourite2 {
-  display: none;
+.heartBtn-unliked {
+  background-image: url(../images/heart_unliked.svg);
+  background-repeat: no-repeat;
+  background-color: $color-lighter;
+  width: 25px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
 }
 
-.displayFavourite2 {
+.heartBtn-liked {
+  background-image: url(../images/heart_liked.svg);
+  background-repeat: no-repeat;
+  background-color: $color-lighter;
+  width: 25px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
 }
 
 @media (min-width: $breakpoint-tablet) {
