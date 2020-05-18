@@ -35,9 +35,10 @@ function changecolor(points) {
   filled(points);
 }
 
-// Categorys  #### Doesn't work since data loaded from JSON!
+// Categorys
 
 var recipes = document.querySelectorAll('.containerRecipe');
+console.log(recipes); // NodeList length:0
 function checkClass(event) {
   const currentBtn = event.target;
   const filterCategory = currentBtn.dataset.category;
@@ -54,5 +55,5 @@ function checkClass(event) {
 
 var categoryBtns = document.querySelectorAll('.category');
 [...categoryBtns].forEach((categoryBtn) =>
-  addEventListener('click', checkClass)
+  categoryBtn.addEventListener('click', checkClass)
 );
