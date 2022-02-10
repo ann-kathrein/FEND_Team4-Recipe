@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "main.css": "^2.0.0",
-    "node-sass": "^4.14.0",
+    "node-sass": "^7.0.0",
     "scss": "^0.2.4"
   },
   "description": "Design in Figma: https://www.figma.com/file/swqEHSyLDLYzQ60DYDx1yC/FEND-Recipe-App?node-id=281%3A179",
